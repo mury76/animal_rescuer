@@ -6,7 +6,7 @@ public class Game {
 
         Rescuer rescuer = new Rescuer("Mury");
 
-        Dog dog = new Dog("Codro", "black", "male", 3, 19);
+        Dog dog = new Dog("Bruno", "black", "male", 3, 19);
 
         Cat cat = new Cat("Stripes", "gray", "male", 6, 7);
 
