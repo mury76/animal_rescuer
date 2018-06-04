@@ -2,7 +2,7 @@ package org.fasttrackit;
 
 public class Bird_food extends Food {
 
-    String grains;
+    String favoriteFoodName = "Grains";
 
     public Bird_food(String name) {
         super(name);
