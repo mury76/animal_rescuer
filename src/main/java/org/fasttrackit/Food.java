@@ -2,6 +2,9 @@ package org.fasttrackit;
 
 public class Food {
 
-    String water;
+    String name;
 
+    public Food(String name) {
+        this.name = name;
+    }
 }
