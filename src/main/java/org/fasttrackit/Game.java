@@ -12,6 +12,10 @@ public class Game {
 
         Food food = new Food("Bone");
 
+        EntertainmentActivity entertainment = new EntertainmentActivity("stick");
+
         rescuer.feed(dog, food);
+        rescuer.entertain(dog, entertainment);
+
     }
 }
