@@ -4,6 +4,9 @@ public class Game {
 
     public void start() {
 
+        Food food1 = new Food("sausage");
+        food1.setNutritionValue(2);
+
         Rescuer rescuer = new Rescuer("Mury");
 
         Dog dog = new Dog("Bruno", "black", "male", 3, 19);
@@ -14,8 +17,8 @@ public class Game {
 
         EntertainmentActivity entertainment = new EntertainmentActivity("stick");
 
-        rescuer.feed(dog, food);
-        rescuer.entertain(dog, entertainment);
+        rescuer.feed(dog, food1);
+//        rescuer.entertain(dog, entertainment);
 
     }
 }

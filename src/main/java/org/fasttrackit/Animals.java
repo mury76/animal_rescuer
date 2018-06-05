@@ -10,6 +10,7 @@ public class Animals {
     private boolean health;
     private String favoriteFoodName;
     private String favoriteActivityName;
+    private int hunger = 10;
 
     public Animals(String name, String color, String gender, int age, double weight) {
         this.name = name;
@@ -81,5 +82,13 @@ public class Animals {
 
     public void setFavoriteActivityName(String favoriteActivityName) {
         this.favoriteActivityName = favoriteActivityName;
+    }
+
+    public int getHunger() {
+        return hunger;
+    }
+
+    public void setHunger(int hunger) {
+        this.hunger = hunger;
     }
 }
